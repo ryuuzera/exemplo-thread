@@ -1,0 +1,51 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Form2'
+  ClientHeight = 191
+  ClientWidth = 351
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 351
+    Height = 191
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'Panel1'
+    Color = 5060653
+    ParentBackground = False
+    ShowCaption = False
+    TabOrder = 0
+    OnMouseDown = Panel1MouseDown
+    ExplicitLeft = 40
+    ExplicitTop = 32
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object ActivityIndicator1: TActivityIndicator
+      Left = 144
+      Top = 48
+      Animate = True
+      IndicatorColor = aicWhite
+      IndicatorSize = aisXLarge
+      IndicatorType = aitSectorRing
+    end
+    object ProgressBar1: TProgressBar
+      Left = 0
+      Top = 140
+      Width = 351
+      Height = 48
+      TabOrder = 1
+    end
+  end
+end
